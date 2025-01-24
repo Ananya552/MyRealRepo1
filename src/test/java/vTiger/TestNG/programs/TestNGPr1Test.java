@@ -18,7 +18,7 @@ public class TestNGPr1Test {
 	}
 	@Test(enabled=true)
 	public void aammy() {
-		System.out.println("Method aammy.");
+		System.out.println("I am method aammy.");
 	}
 }
 
