@@ -97,8 +97,9 @@ public class WebDriverUtility2 {
 	 */
 	public void handleDropdown(String visibleText, WebElement element) {
 		Select s = new Select(element);
-		s.selectByValue(visibleText);
+		s.selectByVisibleText(visibleText);
 	}
+	
 	/**
 	 * THIS METHOD WILL MOUSE HOVER ON A SPECIFIC ELEMENT ON THE WEB PAGE. 
 	 * @param d

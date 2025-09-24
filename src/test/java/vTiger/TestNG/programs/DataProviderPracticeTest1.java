@@ -39,7 +39,7 @@ public class DataProviderPracticeTest1 {
 
 	@DataProvider
 	public Object[][] getInfo() {
-		Object[][] data = new Object[2][2];// 4 SETS OF DATA WITH 3 DIFFERENT FIELDS.
+		Object[][] data = new Object[2][2];// 2 SETS OF DATA WITH 2 DIFFERENT FIELDS.
 
 		data[0][0] = "Motorola";
 		data[0][1] = "M24";
