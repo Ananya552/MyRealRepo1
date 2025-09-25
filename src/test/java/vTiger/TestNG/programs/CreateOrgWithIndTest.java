@@ -15,6 +15,7 @@ import vTiger.POM.classes.LoginPage;
 import vTiger.POM.classes.OrganisationInfoPage;
 import vTiger.POM.classes.OrganisationsPage;
 
+@Test
 public class CreateOrgWithIndTest {
 	@Test
 	public void createOrgWithIndTest() throws Throwable {

@@ -20,7 +20,7 @@ import vTiger.POM.classes.LoginPage;
 import vTiger.POM.classes.OrganisationInfoPage;
 import vTiger.POM.classes.OrganisationsPage;
 
-//@Test(groups="SmokeSuite")//In groups,array of Strings can also be written.
+@Test(groups ="testngBatch")//In groups,array of Strings can also be written.
 public class BC_CreateContactWithOrgTest extends BaseClass {
 	@Test
 	public void bc_createContactWithOrgTest() throws Throwable {

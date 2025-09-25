@@ -17,7 +17,7 @@ import vTiger.POM.classes.OrganisationInfoPage;
 import vTiger.POM.classes.OrganisationsPage;
 
 //@Test(groups={"SmokeSuite","RegressionSuite"})//In groups,array of Strings can also be written.
-//@Test(alwaysRun = true)
+@Test(groups="testngBatch")
 public class BC_CreateOrgWithIndTest extends BaseClass{
 	@Test
 	public void bc_createOrgWithIndTest() throws Throwable {
