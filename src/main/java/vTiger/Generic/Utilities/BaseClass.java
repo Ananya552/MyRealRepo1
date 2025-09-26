@@ -64,7 +64,7 @@ public void bcConfig() throws Throwable {
 	}
 	else if(BROWSER.equalsIgnoreCase("safari"))
 	{
-		WebDriverManager.edgedriver().setup();
+		WebDriverManager.safaridriver().setup();
 		d = new SafariDriver();
 	}
 	else System.out.println("Invalid browser name");
