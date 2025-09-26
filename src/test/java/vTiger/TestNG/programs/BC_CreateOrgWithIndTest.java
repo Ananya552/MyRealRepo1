@@ -16,10 +16,10 @@ import vTiger.POM.classes.LoginPage;
 import vTiger.POM.classes.OrganisationInfoPage;
 import vTiger.POM.classes.OrganisationsPage;
 
-//@Test(groups={"SmokeSuite","RegressionSuite"})//In groups,array of Strings can also be written.
-@Test(groups="testngBatch")
+//@Test(alwaysRun = true)//(groups={"SmokeSuite","RegressionSuite"})//In groups,array of Strings can also be written.
+
 public class BC_CreateOrgWithIndTest extends BaseClass{
-	@Test
+	@Test(groups="testngBatch")
 	public void bc_createOrgWithIndTest() throws Throwable {
 		
         String ORGNAME = eUtil.readDataFromExcelFile("Sheet1", 4, 2) + jUtil.getRandomNumber();// Cipla
