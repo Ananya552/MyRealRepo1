@@ -3,6 +3,7 @@ package vTiger.TestNG.programs;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -21,6 +22,7 @@ import vTiger.POM.classes.OrganisationInfoPage;
 import vTiger.POM.classes.OrganisationsPage;
 
 //In groups,array of Strings can also be written.
+@Listeners(vTiger.Generic.Utilities.ListenersImplementation.class)
 public class BC_CreateContactWithOrgTest extends BaseClass {
 	@Test(groups ="testngBatch")
 	public void bc_createContactWithOrgTest() throws Throwable {
